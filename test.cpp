@@ -2,15 +2,8 @@
 #include <math.h>
 int main(int argc, char const *argv[])
 {
-//    double c=2.88;
-//    int a,b;
-//    scanf("%d%d",a,b);
-//    printf("%d %d\n",a,b);
-//    printf("%f\n",11111*11111);
-//    printf("%d\n",1/0);
-//    printf("%d\n",sprt(-10));
-//	  printf("%.1f\n",8/5);
-    for(int k=1;k<=9;k++)
-    	printf("%d\n",k);
-    return 0;
+	double i;
+	for(i=0;i!=10;i+=0.1)
+		printf("%.1f\n",i);
+	return 0;
 }
