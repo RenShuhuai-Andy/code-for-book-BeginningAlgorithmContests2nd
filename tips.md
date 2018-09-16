@@ -150,8 +150,8 @@ int f(int n){
 3. 条件编译
 定义符号(DEBUG和LOCAL)：
 ```
--DDEBUG
--DLOCAL
+-D DEBUG
+-D LOCAL
 ```
 这样位于
 ```
